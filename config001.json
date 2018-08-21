@@ -1,0 +1,23 @@
+{
+    "trainexamples":"traindata.txt",
+    "eps_end"":0.05,
+    "eps_start"":0.9,
+    "eps_steps":1000,
+    "batch_size":1,
+    "batch_epochs":256,
+    "gamma":0.999,
+    "hidden_size":256,
+    "num_lstm_layers":3,
+    "dropout":0.0,
+    "optimizer":"rms",
+    "learning_rate":0.01,
+    "living_reward":0,
+    "loss_punishment":1,
+    "win_factor":50,
+    "weight_decay":0.001,
+
+    "capacity":256,
+    "num_epochs":10000,
+    "base_reward":100,
+    "filename":"neuralpayload_rl_lstm_noactivation_pretrained_config001_v0.01.pt"
+}

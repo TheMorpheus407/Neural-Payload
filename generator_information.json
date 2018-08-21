@@ -1,0 +1,30 @@
+[
+  {
+    "url":"http://localhost/Masterarbeit/xss.php",
+    "start_string":"<form action=",
+    "end_string":"</form>",
+    "base_injection_dict":{"message":"ZAP"},
+    "xss":"True"
+  },
+  {
+    "url":"http://localhost/Masterarbeit/username.php",
+    "start_string":"<form action=",
+    "end_string":"\"user\"><br>",
+    "base_injection_dict":{"user":"ZAP","password":"asdf"},
+    "xss":"False"
+  },
+  {
+    "url":"http://localhost/Masterarbeit/index.php",
+    "start_string":"Passwort: <input type=",
+    "end_string":"</form>",
+    "base_injection_dict":{"user":"admin","password":"ZAP"},
+    "xss":"False"
+  },
+  {
+    "url":"http://localhost/vulnerabilities/exec/",
+    "start_string":"<input type=",
+    "end_string":"submit",
+    "base_injection_dict":{"ip":"ZAP","Submit":"Submit"},
+    "xss":"False"
+  }
+]
