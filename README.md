@@ -3,6 +3,16 @@
 Neural Payload is a Neural Network written in PyTorch for generating website attack vectors for penetration tests.
 Neural Evaluator is a Neural Network for evaluating the success of a website attack.
 This project is a cooperation of C&M of the Institute for Technology in Karlsruhe, Germany and IC-Consult. It was created as part of the master thesis of Cedric Mössner.
+
+
+** PLEASE NOTE that this repo contains ALL the files, I used while working on the project. 
+There are multiple executables, helping scripts as well as networks and multiple text-files containing data or config.
+Clean-Up could be done, however, I decided against it, so everyone can test for themselves, all my work can be seen and my mistakes can be comprehended and fixed. Thus, this is more to be considered, research in work in progress as a finished project.
+So please use with caution!!!
+However, feel free to improve, fork, create pull requests or whatever your heart (or brain) tells you to do.
+Also, please refer to my thesis.
+**
+
 There are many versions:
 - Reinforcement Learning Neural Payload
     - Does Reinforcement Learning supervised based on a payload list
