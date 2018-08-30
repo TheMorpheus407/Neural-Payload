@@ -10,7 +10,7 @@ There are multiple executables, helping scripts as well as networks and multiple
 Clean-Up could be done, however, I decided against it, so everyone can test for themselves, all my work can be seen and my mistakes can be comprehended and fixed. Thus, this is more to be considered, research in work in progress as a finished project.
 So please use with caution!!!
 However, feel free to improve, fork, create pull requests or whatever your heart (or brain) tells you to do.
-Also, please refer to my thesis.**
+Also, please refer to my thesis you can find here: https://drive.google.com/open?id=1Gqq4D6mqnqFaYFtwZKSPALJu1LcqcU8z**
 
 There are many versions:
 - Reinforcement Learning Neural Payload
