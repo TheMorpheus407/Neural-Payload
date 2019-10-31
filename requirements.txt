@@ -1,4 +1,4 @@
-requests==2.18.4
+requests==2.20.0
 torch==0.3.0.post4
 matplotlib==2.0.2
 numpy==1.14.5
